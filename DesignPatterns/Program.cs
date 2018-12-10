@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using DesignPatterns.Source.BehaviourPatterns;
+using DesignPatterns.Source.BehaviourPatterns.ChainOfResponsibility;
 
 namespace DesignPatterns
 {
@@ -10,6 +8,13 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
+            //Chain Of Responsibility
+            IClient client = new Client();
+            client.Run();
+
+            //Startegy
+
+            Console.ReadKey();
         }
     }
 }
