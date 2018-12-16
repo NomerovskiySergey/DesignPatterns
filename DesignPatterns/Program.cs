@@ -1,18 +1,24 @@
 ﻿using System;
 using DesignPatterns.Source.BehaviourPatterns;
-using DesignPatterns.Source.BehaviourPatterns.ChainOfResponsibility;
+using Chain = DesignPatterns.Source.BehaviourPatterns.ChainOfResponsibility;
+using Strategy = DesignPatterns.Source.BehaviourPatterns.Strategy;
 
+//TO DO: need to integrate DI Container
 namespace DesignPatterns
 {
     class Program
     {
         static void Main(string[] args)
         {
-            //Chain Of Responsibility
-            IClient client = new Client();
-            client.Run();
+            IClient client;
 
-            //Startegy
+            //Chain Of Responsibility
+            //IClient client = new Chain.Client();
+            //client.Run();
+
+            //Strategy
+            client = new Strategy.Client();
+            client.Run();
 
             Console.ReadKey();
         }
