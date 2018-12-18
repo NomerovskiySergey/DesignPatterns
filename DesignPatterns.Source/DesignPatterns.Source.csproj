@@ -47,6 +47,12 @@
     <Compile Include="BehaviourPatterns\ChainOfResponsibility\Receiver.cs" />
     <Compile Include="BehaviourPatterns\ChainOfResponsibility\WesternUnionPaymentHandler.cs" />
     <Compile Include="BehaviourPatterns\IClient.cs" />
+    <Compile Include="BehaviourPatterns\Observer\Bank.cs" />
+    <Compile Include="BehaviourPatterns\Observer\Broker.cs" />
+    <Compile Include="BehaviourPatterns\Observer\Stock.cs" />
+    <Compile Include="BehaviourPatterns\Observer\IListener.cs" />
+    <Compile Include="BehaviourPatterns\Observer\IObservable.cs" />
+    <Compile Include="BehaviourPatterns\Observer\StockInfo.cs" />
     <Compile Include="BehaviourPatterns\Strategy\Car.cs" />
     <Compile Include="BehaviourPatterns\Strategy\Client.cs" />
     <Compile Include="BehaviourPatterns\Strategy\ElectonicMove.cs" />
@@ -60,6 +66,7 @@
     <None Include="BehaviourPatterns\Strategy\StrategyDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BehaviourPatterns\Observer\Description.txt" />
     <Content Include="BehaviourPatterns\Strategy\Description.txt" />
     <Content Include="BehaviourPatterns\ChainOfResponsibility\Description.txt" />
   </ItemGroup>
