@@ -49,6 +49,7 @@
     <Compile Include="BehaviourPatterns\IClient.cs" />
     <Compile Include="BehaviourPatterns\Observer\Bank.cs" />
     <Compile Include="BehaviourPatterns\Observer\Broker.cs" />
+    <Compile Include="BehaviourPatterns\Observer\Client.cs" />
     <Compile Include="BehaviourPatterns\Observer\Stock.cs" />
     <Compile Include="BehaviourPatterns\Observer\IListener.cs" />
     <Compile Include="BehaviourPatterns\Observer\IObservable.cs" />
@@ -64,6 +65,7 @@
   <ItemGroup>
     <None Include="BehaviourPatterns\ChainOfResponsibility\ChainOfResponsibilityClassDiagram.cd" />
     <None Include="BehaviourPatterns\Strategy\StrategyDiagram.cd" />
+    <None Include="BehaviourPatterns\Observer\ObserverDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="BehaviourPatterns\Observer\Description.txt" />

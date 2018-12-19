@@ -1,16 +1,35 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DesignPatterns.Source.BehaviourPatterns.Observer
 {
-    public class Bank: IListener
+    public class Bank : IListener
     {
+        string _name { get; set; }
+        IObservable _stock;
+
+        public Bank(string name, IObservable obs)
+        {
+            _name = name;
+            _stock = obs;
+            _stock.RegisterListener(this);
+        }
+
         public void Update(StockInfo info)
         {
-            throw new NotImplementedException();
+            if (info.EURO > 40)
+                Console.WriteLine("Банк {0} продает евро;  Курс евро: {1}", _name, info.EURO);
+            else
+                Console.WriteLine("Банк {0} покупает евро;  Курс евро: {1}", _name, info.EURO);
+        }
+
+        public void Unsubscribe()
+        {
+            _stock.RemoveListener(this);
+        }
+
+        public void Subscribe()
+        {
+            _stock.RegisterListener(this);
         }
     }
 }

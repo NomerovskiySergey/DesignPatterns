@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DesignPatterns.Source.BehaviourPatterns.Observer.Bank" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAIAAAAAAAAAAAAAAAAAAAAAACAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>BehaviourPatterns\Observer\Bank.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_stock" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.Source.BehaviourPatterns.Observer.Broker" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAIAAAAAAAAAAAAAAAAAAAAAACAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>BehaviourPatterns\Observer\Broker.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_stock" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.Source.BehaviourPatterns.Observer.Stock" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAkAAAAAAAAwAAAAAAIAAAAAAgAAAAAAA=</HashCode>
+      <FileName>BehaviourPatterns\Observer\Stock.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_info" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.21" />
+  </Class>
+  <Class Name="DesignPatterns.Source.BehaviourPatterns.Observer.StockInfo">
+    <Position X="0.5" Y="5.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>BehaviourPatterns\Observer\StockInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DesignPatterns.Source.BehaviourPatterns.Observer.IListener">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAACAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>BehaviourPatterns\Observer\IListener.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DesignPatterns.Source.BehaviourPatterns.Observer.IObservable">
+    <Position X="3.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAgAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BehaviourPatterns\Observer\IObservable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

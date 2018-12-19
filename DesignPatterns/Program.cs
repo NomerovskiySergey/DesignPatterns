@@ -2,6 +2,7 @@
 using DesignPatterns.Source.BehaviourPatterns;
 using Chain = DesignPatterns.Source.BehaviourPatterns.ChainOfResponsibility;
 using Strategy = DesignPatterns.Source.BehaviourPatterns.Strategy;
+using Observer = DesignPatterns.Source.BehaviourPatterns.Observer;
 
 //TO DO: need to integrate DI Container
 namespace DesignPatterns
@@ -17,7 +18,11 @@ namespace DesignPatterns
             //client.Run();
 
             //Strategy
-            client = new Strategy.Client();
+            //client = new Strategy.Client();
+            //client.Run();
+
+            //Observer
+            client = new Observer.Client();
             client.Run();
 
             Console.ReadKey();
