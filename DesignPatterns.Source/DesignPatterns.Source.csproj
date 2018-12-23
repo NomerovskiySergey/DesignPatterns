@@ -46,6 +46,15 @@
     <Compile Include="BehaviourPatterns\ChainOfResponsibility\PayPalPaymentHandler.cs" />
     <Compile Include="BehaviourPatterns\ChainOfResponsibility\Receiver.cs" />
     <Compile Include="BehaviourPatterns\ChainOfResponsibility\WesternUnionPaymentHandler.cs" />
+    <Compile Include="BehaviourPatterns\Command\Client.cs" />
+    <Compile Include="BehaviourPatterns\Command\RunConsoleCommand.cs" />
+    <Compile Include="BehaviourPatterns\Command\ICommand.cs" />
+    <Compile Include="BehaviourPatterns\Command\IInitiator.cs" />
+    <Compile Include="BehaviourPatterns\Command\NoCommand.cs" />
+    <Compile Include="BehaviourPatterns\Command\PlaystationConsole.cs" />
+    <Compile Include="BehaviourPatterns\Command\Pult.cs" />
+    <Compile Include="BehaviourPatterns\Command\TV.cs" />
+    <Compile Include="BehaviourPatterns\Command\RunTVCommand.cs" />
     <Compile Include="BehaviourPatterns\IClient.cs" />
     <Compile Include="BehaviourPatterns\Observer\Bank.cs" />
     <Compile Include="BehaviourPatterns\Observer\Broker.cs" />
@@ -61,13 +70,17 @@
     <Compile Include="BehaviourPatterns\Strategy\PetrolMove.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="BehaviourPatterns\TemplateMethod\" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="BehaviourPatterns\ChainOfResponsibility\ChainOfResponsibilityClassDiagram.cd" />
     <None Include="BehaviourPatterns\Strategy\StrategyDiagram.cd" />
     <None Include="BehaviourPatterns\Observer\ObserverDiagram.cd" />
+    <None Include="BehaviourPatterns\Command\CommandDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BehaviourPatterns\Command\Description.txt" />
     <Content Include="BehaviourPatterns\Observer\Description.txt" />
     <Content Include="BehaviourPatterns\Strategy\Description.txt" />
     <Content Include="BehaviourPatterns\ChainOfResponsibility\Description.txt" />
