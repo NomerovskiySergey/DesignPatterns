@@ -5,6 +5,8 @@ using Strategy = DesignPatterns.Source.BehaviourPatterns.Strategy;
 using Observer = DesignPatterns.Source.BehaviourPatterns.Observer;
 using Command = DesignPatterns.Source.BehaviourPatterns.Command;
 using TemplateMethod = DesignPatterns.Source.BehaviourPatterns.TemplateMethod;
+using State = DesignPatterns.Source.BehaviourPatterns.State;
+
 
 //TO DO: need to integrate DI Container
 namespace DesignPatterns
@@ -15,7 +17,7 @@ namespace DesignPatterns
         {
             IClient client;
 
-            client = new TemplateMethod.Client();
+            client = new State.Client();
             client.Run();
 
             Console.ReadKey();

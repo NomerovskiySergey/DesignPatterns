@@ -63,6 +63,12 @@
     <Compile Include="BehaviourPatterns\Observer\IListener.cs" />
     <Compile Include="BehaviourPatterns\Observer\IObservable.cs" />
     <Compile Include="BehaviourPatterns\Observer\StockInfo.cs" />
+    <Compile Include="BehaviourPatterns\State\Client.cs" />
+    <Compile Include="BehaviourPatterns\State\GasWaterState.cs" />
+    <Compile Include="BehaviourPatterns\State\IWaterState.cs" />
+    <Compile Include="BehaviourPatterns\State\LiquidWaterState.cs" />
+    <Compile Include="BehaviourPatterns\State\SolidWaterState.cs" />
+    <Compile Include="BehaviourPatterns\State\Water.cs" />
     <Compile Include="BehaviourPatterns\Strategy\Car.cs" />
     <Compile Include="BehaviourPatterns\Strategy\Client.cs" />
     <Compile Include="BehaviourPatterns\Strategy\ElectonicMove.cs" />
@@ -81,13 +87,15 @@
     <None Include="BehaviourPatterns\Observer\ObserverDiagram.cd" />
     <None Include="BehaviourPatterns\Command\CommandDiagram.cd" />
     <None Include="BehaviourPatterns\TemplateMethod\TemplateMethodDiagram.cd" />
+    <None Include="BehaviourPatterns\State\StateDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="BehaviourPatterns\Command\Description.txt" />
     <Content Include="BehaviourPatterns\Observer\Description.txt" />
+    <Content Include="BehaviourPatterns\TemplateMethod\Description.txt" />
     <Content Include="BehaviourPatterns\Strategy\Description.txt" />
     <Content Include="BehaviourPatterns\ChainOfResponsibility\Description.txt" />
-    <Content Include="BehaviourPatterns\TemplateMethod\Description.txt" />
+    <Content Include="BehaviourPatterns\State\Description.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
