@@ -68,22 +68,26 @@
     <Compile Include="BehaviourPatterns\Strategy\ElectonicMove.cs" />
     <Compile Include="BehaviourPatterns\Strategy\IMovable.cs" />
     <Compile Include="BehaviourPatterns\Strategy\PetrolMove.cs" />
+    <Compile Include="BehaviourPatterns\TemplateMethod\Client.cs" />
+    <Compile Include="BehaviourPatterns\TemplateMethod\Education.cs" />
+    <Compile Include="BehaviourPatterns\TemplateMethod\School.cs" />
+    <Compile Include="BehaviourPatterns\TemplateMethod\University.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BehaviourPatterns\TemplateMethod\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="BehaviourPatterns\ChainOfResponsibility\ChainOfResponsibilityClassDiagram.cd" />
     <None Include="BehaviourPatterns\Strategy\StrategyDiagram.cd" />
     <None Include="BehaviourPatterns\Observer\ObserverDiagram.cd" />
     <None Include="BehaviourPatterns\Command\CommandDiagram.cd" />
+    <None Include="BehaviourPatterns\TemplateMethod\TemplateMethodDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="BehaviourPatterns\Command\Description.txt" />
     <Content Include="BehaviourPatterns\Observer\Description.txt" />
     <Content Include="BehaviourPatterns\Strategy\Description.txt" />
     <Content Include="BehaviourPatterns\ChainOfResponsibility\Description.txt" />
+    <Content Include="BehaviourPatterns\TemplateMethod\Description.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

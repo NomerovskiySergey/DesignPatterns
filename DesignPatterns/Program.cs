@@ -4,6 +4,7 @@ using Chain = DesignPatterns.Source.BehaviourPatterns.ChainOfResponsibility;
 using Strategy = DesignPatterns.Source.BehaviourPatterns.Strategy;
 using Observer = DesignPatterns.Source.BehaviourPatterns.Observer;
 using Command = DesignPatterns.Source.BehaviourPatterns.Command;
+using TemplateMethod = DesignPatterns.Source.BehaviourPatterns.TemplateMethod;
 
 //TO DO: need to integrate DI Container
 namespace DesignPatterns
@@ -14,7 +15,7 @@ namespace DesignPatterns
         {
             IClient client;
 
-            client = new Command.Client();
+            client = new TemplateMethod.Client();
             client.Run();
 
             Console.ReadKey();
