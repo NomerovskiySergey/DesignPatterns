@@ -56,6 +56,14 @@
     <Compile Include="BehaviourPatterns\Command\TV.cs" />
     <Compile Include="BehaviourPatterns\Command\RunTVCommand.cs" />
     <Compile Include="BehaviourPatterns\IClient.cs" />
+    <Compile Include="BehaviourPatterns\Interpreter\AddExpression.cs" />
+    <Compile Include="BehaviourPatterns\Interpreter\Client.cs" />
+    <Compile Include="BehaviourPatterns\Interpreter\Context.cs" />
+    <Compile Include="BehaviourPatterns\Interpreter\DivisionExpression.cs" />
+    <Compile Include="BehaviourPatterns\Interpreter\IExpression.cs" />
+    <Compile Include="BehaviourPatterns\Interpreter\MultiplicationExxpression.cs" />
+    <Compile Include="BehaviourPatterns\Interpreter\NumberExpression.cs" />
+    <Compile Include="BehaviourPatterns\Interpreter\SubtractExpression.cs" />
     <Compile Include="BehaviourPatterns\Observer\Bank.cs" />
     <Compile Include="BehaviourPatterns\Observer\Broker.cs" />
     <Compile Include="BehaviourPatterns\Observer\Client.cs" />
@@ -88,9 +96,11 @@
     <None Include="BehaviourPatterns\Command\CommandDiagram.cd" />
     <None Include="BehaviourPatterns\TemplateMethod\TemplateMethodDiagram.cd" />
     <None Include="BehaviourPatterns\State\StateDiagram.cd" />
+    <None Include="InterpreterDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="BehaviourPatterns\Command\Description.txt" />
+    <Content Include="BehaviourPatterns\Interpreter\Description.txt" />
     <Content Include="BehaviourPatterns\Observer\Description.txt" />
     <Content Include="BehaviourPatterns\TemplateMethod\Description.txt" />
     <Content Include="BehaviourPatterns\Strategy\Description.txt" />
