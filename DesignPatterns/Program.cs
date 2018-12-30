@@ -7,6 +7,7 @@ using Command = DesignPatterns.Source.BehaviourPatterns.Command;
 using TemplateMethod = DesignPatterns.Source.BehaviourPatterns.TemplateMethod;
 using State = DesignPatterns.Source.BehaviourPatterns.State;
 using Interpreter = DesignPatterns.Source.BehaviourPatterns.Interpreter;
+using Mediator = DesignPatterns.Source.BehaviourPatterns.Mediator;
 
 
 
@@ -19,7 +20,7 @@ namespace DesignPatterns
         {
             IClient client;
 
-            client = new Interpreter.Client();
+            client = new Mediator.Client();
             client.Run();
 
             Console.ReadKey();

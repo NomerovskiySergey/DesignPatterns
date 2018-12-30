@@ -64,6 +64,14 @@
     <Compile Include="BehaviourPatterns\Interpreter\MultiplicationExxpression.cs" />
     <Compile Include="BehaviourPatterns\Interpreter\NumberExpression.cs" />
     <Compile Include="BehaviourPatterns\Interpreter\SubtractExpression.cs" />
+    <Compile Include="BehaviourPatterns\Mediator\Client.cs" />
+    <Compile Include="BehaviourPatterns\Mediator\Colleague.cs" />
+    <Compile Include="BehaviourPatterns\Mediator\CustomerColleague.cs" />
+    <Compile Include="BehaviourPatterns\Mediator\ManagerMediator.cs" />
+    <Compile Include="BehaviourPatterns\Mediator\Mediator.cs" />
+    <Compile Include="BehaviourPatterns\Mediator\Participant.cs" />
+    <Compile Include="BehaviourPatterns\Mediator\ProgrammerColleague.cs" />
+    <Compile Include="BehaviourPatterns\Mediator\TesterColleague.cs" />
     <Compile Include="BehaviourPatterns\Observer\Bank.cs" />
     <Compile Include="BehaviourPatterns\Observer\Broker.cs" />
     <Compile Include="BehaviourPatterns\Observer\Client.cs" />
@@ -96,11 +104,13 @@
     <None Include="BehaviourPatterns\Command\CommandDiagram.cd" />
     <None Include="BehaviourPatterns\TemplateMethod\TemplateMethodDiagram.cd" />
     <None Include="BehaviourPatterns\State\StateDiagram.cd" />
-    <None Include="InterpreterDiagram.cd" />
+    <None Include="BehaviourPatterns\Mediator\MediatorDiagram.cd" />
+    <None Include="BehaviourPatterns\Interpreter\InterpreterDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="BehaviourPatterns\Command\Description.txt" />
     <Content Include="BehaviourPatterns\Interpreter\Description.txt" />
+    <Content Include="BehaviourPatterns\Mediator\Description.txt" />
     <Content Include="BehaviourPatterns\Observer\Description.txt" />
     <Content Include="BehaviourPatterns\TemplateMethod\Description.txt" />
     <Content Include="BehaviourPatterns\Strategy\Description.txt" />
