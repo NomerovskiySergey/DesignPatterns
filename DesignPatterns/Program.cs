@@ -8,6 +8,7 @@ using TemplateMethod = DesignPatterns.Source.BehaviourPatterns.TemplateMethod;
 using State = DesignPatterns.Source.BehaviourPatterns.State;
 using Interpreter = DesignPatterns.Source.BehaviourPatterns.Interpreter;
 using Mediator = DesignPatterns.Source.BehaviourPatterns.Mediator;
+using Memento = DesignPatterns.Source.BehaviourPatterns.Memento;
 
 
 
@@ -20,7 +21,7 @@ namespace DesignPatterns
         {
             IClient client;
 
-            client = new Mediator.Client();
+            client = new Memento.Client();
             client.Run();
 
             Console.ReadKey();

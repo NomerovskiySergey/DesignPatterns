@@ -72,6 +72,10 @@
     <Compile Include="BehaviourPatterns\Mediator\Participant.cs" />
     <Compile Include="BehaviourPatterns\Mediator\ProgrammerColleague.cs" />
     <Compile Include="BehaviourPatterns\Mediator\TesterColleague.cs" />
+    <Compile Include="BehaviourPatterns\Memento\Client.cs" />
+    <Compile Include="BehaviourPatterns\Memento\GameHistory.cs" />
+    <Compile Include="BehaviourPatterns\Memento\Hero.cs" />
+    <Compile Include="BehaviourPatterns\Memento\HeroMemento.cs" />
     <Compile Include="BehaviourPatterns\Observer\Bank.cs" />
     <Compile Include="BehaviourPatterns\Observer\Broker.cs" />
     <Compile Include="BehaviourPatterns\Observer\Client.cs" />
@@ -106,11 +110,13 @@
     <None Include="BehaviourPatterns\State\StateDiagram.cd" />
     <None Include="BehaviourPatterns\Mediator\MediatorDiagram.cd" />
     <None Include="BehaviourPatterns\Interpreter\InterpreterDiagram.cd" />
+    <None Include="MementoDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="BehaviourPatterns\Command\Description.txt" />
     <Content Include="BehaviourPatterns\Interpreter\Description.txt" />
     <Content Include="BehaviourPatterns\Mediator\Description.txt" />
+    <Content Include="BehaviourPatterns\Memento\Description.txt" />
     <Content Include="BehaviourPatterns\Observer\Description.txt" />
     <Content Include="BehaviourPatterns\TemplateMethod\Description.txt" />
     <Content Include="BehaviourPatterns\Strategy\Description.txt" />
