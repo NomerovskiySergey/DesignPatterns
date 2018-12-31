@@ -98,6 +98,13 @@
     <Compile Include="BehaviourPatterns\TemplateMethod\Education.cs" />
     <Compile Include="BehaviourPatterns\TemplateMethod\School.cs" />
     <Compile Include="BehaviourPatterns\TemplateMethod\University.cs" />
+    <Compile Include="BehaviourPatterns\Visitor\Bank.cs" />
+    <Compile Include="BehaviourPatterns\Visitor\Client.cs" />
+    <Compile Include="BehaviourPatterns\Visitor\Company.cs" />
+    <Compile Include="BehaviourPatterns\Visitor\HtmlVisitor.cs" />
+    <Compile Include="BehaviourPatterns\Visitor\IAccount.cs" />
+    <Compile Include="BehaviourPatterns\Visitor\IVisitor.cs" />
+    <Compile Include="BehaviourPatterns\Visitor\Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
@@ -110,7 +117,8 @@
     <None Include="BehaviourPatterns\State\StateDiagram.cd" />
     <None Include="BehaviourPatterns\Mediator\MediatorDiagram.cd" />
     <None Include="BehaviourPatterns\Interpreter\InterpreterDiagram.cd" />
-    <None Include="MementoDiagram.cd" />
+    <None Include="BehaviourPatterns\Visitor\VisitorDiagram.cd" />
+    <None Include="BehaviourPatterns\Memento\MementoDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="BehaviourPatterns\Command\Description.txt" />
@@ -122,6 +130,7 @@
     <Content Include="BehaviourPatterns\Strategy\Description.txt" />
     <Content Include="BehaviourPatterns\ChainOfResponsibility\Description.txt" />
     <Content Include="BehaviourPatterns\State\Description.txt" />
+    <Content Include="BehaviourPatterns\Visitor\Description.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
