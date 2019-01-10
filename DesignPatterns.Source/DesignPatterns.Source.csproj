@@ -55,7 +55,15 @@
     <Compile Include="BehavioralPatterns\Command\Pult.cs" />
     <Compile Include="BehavioralPatterns\Command\TV.cs" />
     <Compile Include="BehavioralPatterns\Command\RunTVCommand.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethod\AirLogistic.cs" />
     <Compile Include="CreationalPatterns\FactoryMethod\Client.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethod\ITransport.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethod\Logistic.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethod\Plane.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethod\RoadLogistic.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethod\SeaLogistic.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethod\Ship.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethod\Truck.cs" />
     <Compile Include="IClient.cs" />
     <Compile Include="BehavioralPatterns\Interpreter\AddExpression.cs" />
     <Compile Include="BehavioralPatterns\Interpreter\Client.cs" />
@@ -132,6 +140,7 @@
     <Content Include="BehavioralPatterns\ChainOfResponsibility\Description.txt" />
     <Content Include="BehavioralPatterns\State\Description.txt" />
     <Content Include="BehavioralPatterns\Visitor\Description.txt" />
+    <Content Include="CreationalPatterns\FactoryMethod\Description.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
