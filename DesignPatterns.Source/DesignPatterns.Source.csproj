@@ -128,6 +128,7 @@
     <None Include="BehavioralPatterns\Interpreter\InterpreterDiagram.cd" />
     <None Include="BehavioralPatterns\Visitor\VisitorDiagram.cd" />
     <None Include="BehavioralPatterns\Memento\MementoDiagram.cd" />
+    <None Include="CreationalPatterns\FactoryMethod\FactoryMethod.cd" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="BehavioralPatterns\Command\Description.txt" />

@@ -10,6 +10,7 @@ using Interpreter = DesignPatterns.Source.BehaviourPatterns.Interpreter;
 using Mediator = DesignPatterns.Source.BehaviourPatterns.Mediator;
 using Memento = DesignPatterns.Source.BehaviourPatterns.Memento;
 using Visitor = DesignPatterns.Source.BehaviourPatterns.Visitor;
+using FactoryMethod = DesignPatterns.Source.CreationalPatterns.FactoryMethod;
 
 
 
@@ -23,7 +24,7 @@ namespace DesignPatterns
         {
             IClient client;
 
-            client = new Visitor.Client();
+            client = new FactoryMethod.Client();
             client.Run();
 
             Console.ReadKey();
