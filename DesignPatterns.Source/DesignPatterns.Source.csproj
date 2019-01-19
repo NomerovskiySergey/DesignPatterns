@@ -55,6 +55,17 @@
     <Compile Include="BehavioralPatterns\Command\Pult.cs" />
     <Compile Include="BehavioralPatterns\Command\TV.cs" />
     <Compile Include="BehavioralPatterns\Command\RunTVCommand.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\Client.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\Factory\ElfFactory.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\Factory\SoldierFactory.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\Hero.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\Movement\FlyMovement.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\IFactory.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\IMovement.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\IWeapon.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\Movement\RunMovement.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\Weapon\Bow.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\Weapon\Gun.cs" />
     <Compile Include="CreationalPatterns\FactoryMethod\AirLogistic.cs" />
     <Compile Include="CreationalPatterns\FactoryMethod\Client.cs" />
     <Compile Include="CreationalPatterns\FactoryMethod\ITransport.cs" />
@@ -128,6 +139,7 @@
     <None Include="BehavioralPatterns\Interpreter\InterpreterDiagram.cd" />
     <None Include="BehavioralPatterns\Visitor\VisitorDiagram.cd" />
     <None Include="BehavioralPatterns\Memento\MementoDiagram.cd" />
+    <None Include="CreationalPatterns\AbstractFactory\AbstractFactory.cd" />
     <None Include="CreationalPatterns\FactoryMethod\FactoryMethod.cd" />
   </ItemGroup>
   <ItemGroup>
