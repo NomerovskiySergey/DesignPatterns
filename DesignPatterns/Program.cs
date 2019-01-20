@@ -12,6 +12,8 @@ using Memento = DesignPatterns.Source.BehaviourPatterns.Memento;
 using Visitor = DesignPatterns.Source.BehaviourPatterns.Visitor;
 using FactoryMethod = DesignPatterns.Source.CreationalPatterns.FactoryMethod;
 using AbstractFactory = DesignPatterns.Source.CreationalPatterns.AbstractFactory;
+using Builder = DesignPatterns.Source.CreationalPatterns.Builder;
+
 
 
 
@@ -25,7 +27,7 @@ namespace DesignPatterns
         {
             IClient client;
 
-            client = new AbstractFactory.Client();
+            client = new Builder.Client();
             client.Run();
 
             Console.ReadKey();

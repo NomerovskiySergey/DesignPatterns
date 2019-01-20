@@ -66,6 +66,20 @@
     <Compile Include="CreationalPatterns\AbstractFactory\Movement\RunMovement.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\Weapon\Bow.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\Weapon\Gun.cs" />
+    <Compile Include="CreationalPatterns\Builder\Car.cs" />
+    <Compile Include="CreationalPatterns\Builder\CarPart\Seat.cs" />
+    <Compile Include="CreationalPatterns\Builder\CarPart\StandartEngine.cs" />
+    <Compile Include="CreationalPatterns\Builder\CarPart\SportEngine.cs" />
+    <Compile Include="CreationalPatterns\Builder\CarPart\SportTripComputer.cs" />
+    <Compile Include="CreationalPatterns\Builder\CarPart\StandartTripComputer.cs" />
+    <Compile Include="CreationalPatterns\Builder\Client.cs" />
+    <Compile Include="CreationalPatterns\Builder\Director.cs" />
+    <Compile Include="CreationalPatterns\Builder\FamilyCarBulder.cs" />
+    <Compile Include="CreationalPatterns\Builder\Interface\ICar.cs" />
+    <Compile Include="CreationalPatterns\Builder\Interface\ICarBuilder.cs" />
+    <Compile Include="CreationalPatterns\Builder\Interface\IEngine.cs" />
+    <Compile Include="CreationalPatterns\Builder\Interface\ITripComputer.cs" />
+    <Compile Include="CreationalPatterns\Builder\SportCarBuilder.cs" />
     <Compile Include="CreationalPatterns\FactoryMethod\AirLogistic.cs" />
     <Compile Include="CreationalPatterns\FactoryMethod\Client.cs" />
     <Compile Include="CreationalPatterns\FactoryMethod\ITransport.cs" />
@@ -139,6 +153,7 @@
     <None Include="BehavioralPatterns\Interpreter\InterpreterDiagram.cd" />
     <None Include="BehavioralPatterns\Visitor\VisitorDiagram.cd" />
     <None Include="BehavioralPatterns\Memento\MementoDiagram.cd" />
+    <None Include="CreationalPatterns\Builder\Builder.cd" />
     <None Include="CreationalPatterns\AbstractFactory\AbstractFactory.cd" />
     <None Include="CreationalPatterns\FactoryMethod\FactoryMethod.cd" />
   </ItemGroup>
@@ -153,6 +168,8 @@
     <Content Include="BehavioralPatterns\ChainOfResponsibility\Description.txt" />
     <Content Include="BehavioralPatterns\State\Description.txt" />
     <Content Include="BehavioralPatterns\Visitor\Description.txt" />
+    <Content Include="CreationalPatterns\AbstractFactory\Description.txt" />
+    <Content Include="CreationalPatterns\Builder\Description.txt" />
     <Content Include="CreationalPatterns\FactoryMethod\Description.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DesignPatterns.Source.CreationalPatterns.Builder.Car" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAgAAAAAAAAQAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPatterns\Builder\Car.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.263" />
+  </Class>
+  <Class Name="DesignPatterns.Source.CreationalPatterns.Builder.Director">
+    <Position X="6.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>CreationalPatterns\Builder\Director.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_builder" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DesignPatterns.Source.CreationalPatterns.Builder.FamilyCarBulder" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIQAAACAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPatterns\Builder\FamilyCarBulder.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Car" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.Source.CreationalPatterns.Builder.SportCarBuilder" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIQAAACAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPatterns\Builder\SportCarBuilder.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Car" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.Source.CreationalPatterns.Builder.CarPart.Seat" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPatterns\Builder\CarPart\Seat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.Source.CreationalPatterns.Builder.CarPart.SportEngine" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPatterns\Builder\CarPart\SportEngine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.Source.CreationalPatterns.Builder.CarPart.SportTripComputer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPatterns\Builder\CarPart\SportTripComputer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DesignPatterns.Source.CreationalPatterns.Builder.CarPart.StandartEngine" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPatterns\Builder\CarPart\StandartEngine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.Source.CreationalPatterns.Builder.CarPart.StandartTripComputer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPatterns\Builder\CarPart\StandartTripComputer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="DesignPatterns.Source.CreationalPatterns.Builder.ICarBuilder">
+    <Position X="6.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIQAAACAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPatterns\Builder\Interface\ICarBuilder.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Car" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="DesignPatterns.Source.CreationalPatterns.Builder.Interface.ICar">
+    <Position X="2.25" Y="3" Width="1.5" />
+    <AssociationLine Name="Engine" Type="DesignPatterns.Source.CreationalPatterns.Builder.Interface.IEngine" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.75" Y="3.5" />
+        <Point X="3.855" Y="3.5" />
+        <Point X="3.855" Y="3.489" />
+        <Point X="4.719" Y="3.489" />
+        <Point X="4.719" Y="4.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAgAAAAAAAAQAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPatterns\Builder\Interface\ICar.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Engine" />
+      <Property Name="Seat" />
+      <Property Name="TripComputer" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="DesignPatterns.Source.CreationalPatterns.Builder.Interface.IEngine" Collapsed="true">
+    <Position X="4.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPatterns\Builder\Interface\IEngine.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DesignPatterns.Source.CreationalPatterns.Builder.Interface.ITripComputer" Collapsed="true">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPatterns\Builder\Interface\ITripComputer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
