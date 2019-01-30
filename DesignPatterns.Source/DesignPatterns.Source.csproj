@@ -89,6 +89,10 @@
     <Compile Include="CreationalPatterns\FactoryMethod\SeaLogistic.cs" />
     <Compile Include="CreationalPatterns\FactoryMethod\Ship.cs" />
     <Compile Include="CreationalPatterns\FactoryMethod\Truck.cs" />
+    <Compile Include="CreationalPatterns\Prototype\Circle.cs" />
+    <Compile Include="CreationalPatterns\Prototype\Client.cs" />
+    <Compile Include="CreationalPatterns\Prototype\IFigure.cs" />
+    <Compile Include="CreationalPatterns\Prototype\Rectangle.cs" />
     <Compile Include="IClient.cs" />
     <Compile Include="BehavioralPatterns\Interpreter\AddExpression.cs" />
     <Compile Include="BehavioralPatterns\Interpreter\Client.cs" />
@@ -153,6 +157,7 @@
     <None Include="BehavioralPatterns\Interpreter\InterpreterDiagram.cd" />
     <None Include="BehavioralPatterns\Visitor\VisitorDiagram.cd" />
     <None Include="BehavioralPatterns\Memento\MementoDiagram.cd" />
+    <None Include="CreationalPatterns\Prototype\Builder.cd" />
     <None Include="CreationalPatterns\Builder\Builder.cd" />
     <None Include="CreationalPatterns\AbstractFactory\AbstractFactory.cd" />
     <None Include="CreationalPatterns\FactoryMethod\FactoryMethod.cd" />
@@ -171,6 +176,7 @@
     <Content Include="CreationalPatterns\AbstractFactory\Description.txt" />
     <Content Include="CreationalPatterns\Builder\Description.txt" />
     <Content Include="CreationalPatterns\FactoryMethod\Description.txt" />
+    <Content Include="CreationalPatterns\Prototype\Description.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

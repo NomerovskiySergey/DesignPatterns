@@ -13,6 +13,7 @@ using Visitor = DesignPatterns.Source.BehaviourPatterns.Visitor;
 using FactoryMethod = DesignPatterns.Source.CreationalPatterns.FactoryMethod;
 using AbstractFactory = DesignPatterns.Source.CreationalPatterns.AbstractFactory;
 using Builder = DesignPatterns.Source.CreationalPatterns.Builder;
+using Prototype = DesignPatterns.Source.CreationalPatterns.Prototype;
 
 
 
@@ -27,7 +28,7 @@ namespace DesignPatterns
         {
             IClient client;
 
-            client = new Builder.Client();
+            client = new Prototype.Client();
             client.Run();
 
             Console.ReadKey();
