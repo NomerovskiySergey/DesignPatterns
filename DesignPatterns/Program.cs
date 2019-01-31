@@ -14,6 +14,8 @@ using FactoryMethod = DesignPatterns.Source.CreationalPatterns.FactoryMethod;
 using AbstractFactory = DesignPatterns.Source.CreationalPatterns.AbstractFactory;
 using Builder = DesignPatterns.Source.CreationalPatterns.Builder;
 using Prototype = DesignPatterns.Source.CreationalPatterns.Prototype;
+using Singleton = DesignPatterns.Source.CreationalPatterns.Singleton;
+
 
 
 
@@ -28,7 +30,7 @@ namespace DesignPatterns
         {
             IClient client;
 
-            client = new Prototype.Client();
+            client = new Singleton.Client();
             client.Run();
 
             Console.ReadKey();
