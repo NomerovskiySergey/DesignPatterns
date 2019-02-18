@@ -1,4 +1,5 @@
-﻿using DesignPatterns.Source.BehaviourPatterns;
+﻿using DesignPatterns.Source;
+using DesignPatterns.Source.BehaviourPatterns;
 using Chain = DesignPatterns.Source.BehaviourPatterns.ChainOfResponsibility;
 using Strategy = DesignPatterns.Source.BehaviourPatterns.Strategy;
 using Observer = DesignPatterns.Source.BehaviourPatterns.Observer;

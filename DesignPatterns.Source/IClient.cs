@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Source.BehaviourPatterns
+﻿namespace DesignPatterns.Source
 {
     public interface IClient
     {

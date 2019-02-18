@@ -50,6 +50,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DesignPatterns.Bootstrap\DesignPatterns.Bootstrap.csproj">
+      <Project>{26e3564f-122e-42e9-8469-073fb54960ba}</Project>
+      <Name>DesignPatterns.Bootstrap</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DesignPatterns.Source\DesignPatterns.Source.csproj">
       <Project>{82ab2ee8-7bc2-40f9-bade-1178f69333e9}</Project>
       <Name>DesignPatterns.Source</Name>
