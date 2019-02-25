@@ -15,6 +15,8 @@ using AbstractFactory = DesignPatterns.Source.CreationalPatterns.AbstractFactory
 using Builder = DesignPatterns.Source.CreationalPatterns.Builder;
 using Prototype = DesignPatterns.Source.CreationalPatterns.Prototype;
 using Singleton = DesignPatterns.Source.CreationalPatterns.Singleton;
+using Adapter = DesignPatterns.Source.StructuralPatterns.Adapter;
+
 using Unity;
 
 namespace DesignPatterns.Bootstrap
@@ -28,6 +30,7 @@ namespace DesignPatterns.Bootstrap
 
             RegisterBehaviourPatternsTypes();
             RegisterCreationalPatternsTypes();
+            RegisterStructuralPatternsTypes();
         }
 
         private static void RegisterBehaviourPatternsTypes()
@@ -51,6 +54,11 @@ namespace DesignPatterns.Bootstrap
             _container.RegisterType<IClient, Builder.Client>(Types.Builder.ToString());
             _container.RegisterType<IClient, Prototype.Client>(Types.Prototype.ToString());
             _container.RegisterType<IClient, Singleton.Client>(Types.Singleton.ToString());
+        }
+
+        private static void RegisterStructuralPatternsTypes()
+        {
+            _container.RegisterType<IClient, Adapter.Client>(Types.Adapter.ToString());
         }
     }
 }

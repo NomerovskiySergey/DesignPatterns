@@ -19,6 +19,9 @@
         Builder,
         FactoryMethod,
         Prototype,
-        Singleton
+        Singleton,
+
+        //Structural
+        Adapter
     }
 }
