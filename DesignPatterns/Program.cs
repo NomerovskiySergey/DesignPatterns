@@ -9,7 +9,7 @@ namespace DesignPatterns
         static void Main(string[] args)
         {
             var factory = Factory.GetInstance();
-           IClient client = factory.GetService<IClient>(Types.Adapter.ToString());
+           IClient client = factory.GetService<IClient>(Types.Flyweight.ToString());
            client.Run();
 
             Console.ReadKey();

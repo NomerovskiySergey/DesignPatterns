@@ -16,7 +16,12 @@ using Builder = DesignPatterns.Source.CreationalPatterns.Builder;
 using Prototype = DesignPatterns.Source.CreationalPatterns.Prototype;
 using Singleton = DesignPatterns.Source.CreationalPatterns.Singleton;
 using Adapter = DesignPatterns.Source.StructuralPatterns.Adapter;
-
+using Decorator = DesignPatterns.Source.StructuralPatterns.Decorator;
+using Facade = DesignPatterns.Source.StructuralPatterns.Facade;
+using Composite = DesignPatterns.Source.StructuralPatterns.Composite;
+using Proxy = DesignPatterns.Source.StructuralPatterns.Proxy;
+using Bridge = DesignPatterns.Source.StructuralPatterns.Bridge;
+using Flyweight = DesignPatterns.Source.StructuralPatterns.Flyweight;
 using Unity;
 
 namespace DesignPatterns.Bootstrap
@@ -59,6 +64,15 @@ namespace DesignPatterns.Bootstrap
         private static void RegisterStructuralPatternsTypes()
         {
             _container.RegisterType<IClient, Adapter.Client>(Types.Adapter.ToString());
+            _container.RegisterType<IClient, Decorator.Client>(Types.Decorator.ToString());
+            _container.RegisterType<IClient, Facade.Client>(Types.Facade.ToString());
+            _container.RegisterType<IClient, Composite.Client>(Types.Composite.ToString());
+            _container.RegisterType<IClient, Proxy.Client>(Types.Proxy.ToString());
+            _container.RegisterType<IClient, Bridge.Client>(Types.Bridge.ToString());
+            _container.RegisterType<IClient, Flyweight.Client>(Types.Flyweight.ToString());
+
+
+
         }
     }
 }

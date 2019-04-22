@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DesignPatterns.Source.StructuralPatterns.Facade.Client" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>StructuralPatterns\Facade\Client.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.Source.StructuralPatterns.Facade.CLR" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>StructuralPatterns\Facade\CLR.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.Source.StructuralPatterns.Facade.Compiller" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>StructuralPatterns\Facade\Compiller.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.Source.StructuralPatterns.Facade.Programmer">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>StructuralPatterns\Facade\Programmer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.Source.StructuralPatterns.Facade.TextEditor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>StructuralPatterns\Facade\TextEditor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.Source.StructuralPatterns.Facade.VisualStudioFacade" BaseTypeListCollapsed="true">
+    <Position X="5" Y="2.25" Width="1.5" />
+    <AssociationLine Name="_compiller" Type="DesignPatterns.Source.StructuralPatterns.Facade.ICompiller" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="3.312" />
+        <Point X="7.719" Y="3.312" />
+        <Point X="7.719" Y="4.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACACAAAAAAAAAAAAAAQAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>StructuralPatterns\Facade\VisualStudioFacade.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_clr" />
+      <Field Name="_compiller" />
+      <Field Name="_textEditor" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="DesignPatterns.Source.StructuralPatterns.Facade.ICLR" Collapsed="true">
+    <Position X="2.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>StructuralPatterns\Facade\CLR.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DesignPatterns.Source.StructuralPatterns.Facade.ICompiller" Collapsed="true">
+    <Position X="7.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>StructuralPatterns\Facade\Compiller.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DesignPatterns.Source.StructuralPatterns.Facade.ITextEditor" Collapsed="true">
+    <Position X="4.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>StructuralPatterns\Facade\TextEditor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DesignPatterns.Source.StructuralPatterns.Facade.IIDEFacade" Collapsed="true">
+    <Position X="4.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>StructuralPatterns\Facade\VisualStudioFacade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

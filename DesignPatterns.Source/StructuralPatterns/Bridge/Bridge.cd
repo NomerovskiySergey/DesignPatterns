@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DesignPatterns.Source.StructuralPatterns.Bridge.Client" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>StructuralPatterns\Bridge\Client.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.Source.StructuralPatterns.Bridge.CorporateProgrammer" Collapsed="true">
+    <Position X="4.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>StructuralPatterns\Bridge\CorporateProgrammer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.Source.StructuralPatterns.Bridge.CPPLanguage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StructuralPatterns\Bridge\CPPLanguage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.Source.StructuralPatterns.Bridge.CSharpLanguage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StructuralPatterns\Bridge\CSharpLanguage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.Source.StructuralPatterns.Bridge.FreelanceProgrammer" Collapsed="true">
+    <Position X="7" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>StructuralPatterns\Bridge\FreelanceProgrammer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.Source.StructuralPatterns.Bridge.Programmer" Collapsed="true">
+    <Position X="6" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAQAAAgAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>StructuralPatterns\Bridge\Programmer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DesignPatterns.Source.StructuralPatterns.Bridge.ILanguage" Collapsed="true">
+    <Position X="10" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StructuralPatterns\Bridge\ILanguage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

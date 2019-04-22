@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DesignPatterns.Source.StructuralPatterns.Proxy.Client" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAI=</HashCode>
+      <FileName>StructuralPatterns\Proxy\Client.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.Source.StructuralPatterns.Proxy.DataSourceFactory" Collapsed="true">
+    <Position X="7" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>StructuralPatterns\Proxy\DataSourceFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.Source.StructuralPatterns.Proxy.EmployeeDataSource" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAgAAQCAAAAAAAAAAA=</HashCode>
+      <FileName>StructuralPatterns\Proxy\EmployeeDataSource.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.Source.StructuralPatterns.Proxy.EmployeeDataSourceProxy" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAIAAAAAAAEAAAAAAAAAgAAACQAAAAAAAAAA=</HashCode>
+      <FileName>StructuralPatterns\Proxy\EmployeeDataSourceProxy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.Source.StructuralPatterns.Proxy.EmployeeInfo">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StructuralPatterns\Proxy\EmployeeInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DesignPatterns.Source.StructuralPatterns.Proxy.IEmployeeDataSource" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAACAAAAAAAAAAA=</HashCode>
+      <FileName>StructuralPatterns\Proxy\IEmployeeDataSource.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

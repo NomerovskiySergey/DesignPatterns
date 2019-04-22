@@ -22,6 +22,12 @@
         Singleton,
 
         //Structural
-        Adapter
+        Adapter,
+        Decorator,
+        Facade,
+        Composite,
+        Proxy,
+        Bridge,
+        Flyweight
     }
 }

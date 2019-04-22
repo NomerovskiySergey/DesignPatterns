@@ -153,6 +153,41 @@
     <Compile Include="StructuralPatterns\Adapter\Driver.cs" />
     <Compile Include="StructuralPatterns\Adapter\IAnimal.cs" />
     <Compile Include="StructuralPatterns\Adapter\ITransport.cs" />
+    <Compile Include="StructuralPatterns\Bridge\Client.cs" />
+    <Compile Include="StructuralPatterns\Bridge\CorporateProgrammer.cs" />
+    <Compile Include="StructuralPatterns\Bridge\CPPLanguage.cs" />
+    <Compile Include="StructuralPatterns\Bridge\CSharpLanguage.cs" />
+    <Compile Include="StructuralPatterns\Bridge\FreelanceProgrammer.cs" />
+    <Compile Include="StructuralPatterns\Bridge\ILanguage.cs" />
+    <Compile Include="StructuralPatterns\Bridge\Programmer.cs" />
+    <Compile Include="StructuralPatterns\Composite\Client.cs" />
+    <Compile Include="StructuralPatterns\Composite\Component.cs" />
+    <Compile Include="StructuralPatterns\Composite\Directory.cs" />
+    <Compile Include="StructuralPatterns\Composite\File.cs" />
+    <Compile Include="StructuralPatterns\Decorator\BulgerianPizza.cs" />
+    <Compile Include="StructuralPatterns\Decorator\CheesePizza.cs" />
+    <Compile Include="StructuralPatterns\Decorator\Client.cs" />
+    <Compile Include="StructuralPatterns\Decorator\ItalianPizza.cs" />
+    <Compile Include="StructuralPatterns\Decorator\Pizza.cs" />
+    <Compile Include="StructuralPatterns\Decorator\PizzaDecorator.cs" />
+    <Compile Include="StructuralPatterns\Decorator\TomatoPizza.cs" />
+    <Compile Include="StructuralPatterns\Facade\Client.cs" />
+    <Compile Include="StructuralPatterns\Facade\CLR.cs" />
+    <Compile Include="StructuralPatterns\Facade\Compiller.cs" />
+    <Compile Include="StructuralPatterns\Facade\Programmer.cs" />
+    <Compile Include="StructuralPatterns\Facade\TextEditor.cs" />
+    <Compile Include="StructuralPatterns\Facade\VisualStudioFacade.cs" />
+    <Compile Include="StructuralPatterns\Flyweight\BrickHouse.cs" />
+    <Compile Include="StructuralPatterns\Flyweight\Client.cs" />
+    <Compile Include="StructuralPatterns\Flyweight\House.cs" />
+    <Compile Include="StructuralPatterns\Flyweight\HouseFactory.cs" />
+    <Compile Include="StructuralPatterns\Flyweight\PanelHouse.cs" />
+    <Compile Include="StructuralPatterns\Proxy\Client.cs" />
+    <Compile Include="StructuralPatterns\Proxy\DataSourceFactory.cs" />
+    <Compile Include="StructuralPatterns\Proxy\EmployeeDataSource.cs" />
+    <Compile Include="StructuralPatterns\Proxy\EmployeeDataSourceProxy.cs" />
+    <Compile Include="StructuralPatterns\Proxy\EmployeeInfo.cs" />
+    <Compile Include="StructuralPatterns\Proxy\IEmployeeDataSource.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -170,6 +205,12 @@
     <None Include="CreationalPatterns\Builder\Builder.cd" />
     <None Include="CreationalPatterns\AbstractFactory\AbstractFactory.cd" />
     <None Include="CreationalPatterns\FactoryMethod\FactoryMethod.cd" />
+    <None Include="StructuralPatterns\Bridge\Bridge.cd" />
+    <None Include="StructuralPatterns\Composite\Composite.cd" />
+    <None Include="StructuralPatterns\Decorator\Decorator.cd" />
+    <None Include="StructuralPatterns\Facade\Facade.cd" />
+    <None Include="StructuralPatterns\Flyweight\Flyweight.cd" />
+    <None Include="StructuralPatterns\Proxy\Proxy.cd" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="BehavioralPatterns\Command\Description.txt" />
@@ -188,6 +229,12 @@
     <Content Include="CreationalPatterns\Prototype\Description.txt" />
     <Content Include="CreationalPatterns\Singleton\Description.txt" />
     <Content Include="StructuralPatterns\Adapter\Description.txt" />
+    <Content Include="StructuralPatterns\Bridge\Description.txt" />
+    <Content Include="StructuralPatterns\Composite\Description.txt" />
+    <Content Include="StructuralPatterns\Decorator\Description.txt" />
+    <Content Include="StructuralPatterns\Facade\Description.txt" />
+    <Content Include="StructuralPatterns\Flyweight\Description.txt" />
+    <Content Include="StructuralPatterns\Proxy\Description.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
